@@ -320,3 +320,9 @@ font-size: 5rem;
 @keyframes blink{
     50% {border-color:transparent}
     }
+.footer{
+        color: #B2A5FF;
+        text-align:left;
+        font-size: 0.5rem;
+    }
+    
