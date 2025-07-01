@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body {
-    background-color: rgb(69, 156, 232);
+   
     text-align: center;
     
 }
@@ -17,6 +17,8 @@ body {
     gap:1.5vmin ;
     display: flex;
     justify-content: center;
+
+    
 }
 
 .Game {
@@ -27,6 +29,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap:1.5vmin ;
+    
     
 }
 
@@ -41,7 +44,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 1px 1px 3px #0C0950;
-   background-color: aliceblue;
+   background-color:  #D4F6FF;
    }
    .b1:hover{
    box-shadow: 5px 5px 18px blue ;
@@ -64,7 +67,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 2px 2px 5px #0C0950;
-   background-color: aliceblue;
+   background-color: #D4F6FF;
    }
    .b2:hover{
    box-shadow: 5px 5px 18px blue ;
@@ -85,7 +88,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 2px 2px 5px #0C0950;
-   background-color: aliceblue;
+  background-color: #D4F6FF;
    }
    .b3:hover{
    box-shadow: 5px 5px 18px blue ;
@@ -105,7 +108,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 2px 2px 5px #0C0950;
-   background-color: aliceblue;
+   background-color: #D4F6FF;
    }
    .b4:hover{
    box-shadow: 5px 5px 18px blue ;
@@ -125,7 +128,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 2px 2px 5px #0C0950;
-   background-color: aliceblue;
+   background-color: #D4F6FF;
    
    }
    .b5:hover{
@@ -146,7 +149,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 2px 2px 5px #0C0950;
-   background-color: aliceblue;
+  background-color: #D4F6FF;
    }
    .b6:hover{
    box-shadow: 5px 5px 18px blue ;
@@ -166,7 +169,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 2px 2px 5px #0C0950;
-   background-color: aliceblue;
+   background-color: #D4F6FF;
    }
    .b7:hover{
    box-shadow: 5px 5px 18px blue ;
@@ -186,7 +189,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 2px 2px 5px #0C0950;
-   background-color: aliceblue;
+   background-color: #D4F6FF;
    }
    .b8:hover{
    box-shadow: 5px 5px 18px blue ;
@@ -206,7 +209,7 @@ body {
    align-items: center;
    justify-content: center;
    box-shadow: 2px 2px 5px #0C0950;
-   background-color: aliceblue;
+   background-color: #D4F6FF;
    
    }
    .b9:hover{
@@ -230,12 +233,11 @@ body {
     
 }
 h1{
-    color: #0C0950;
+    color: #B2A5FF;
 text-decoration: dashed;
 margin-bottom: 5rem;
-text-decoration: underline dashed;
 font-size: 3rem;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #reset-btn:hover{
@@ -294,3 +296,27 @@ font-size: 5rem;
     opacity: 0;
   }
 }
+.typewriter-text{
+   width: 70inch;
+   white-space: nowrap;
+   overflow: hidden;
+   border-right: 3px solid #B2A5FF;
+   font-size: 2.5rem;
+   font-weight: bold;
+   font-family:cursive;
+   margin:20px auto;
+   text-align: center;
+   animation: typing 3s steps(24), blink 0.7s step-end infinite;
+    color:  #B2A5FF ;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    min-height: 60px;
+}
+@keyframes typing {
+    from {width: 0;}
+    to {width:24ch}
+}
+
+@keyframes blink{
+    50% {border-color:transparent}
+    }
