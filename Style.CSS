@@ -310,7 +310,6 @@ font-size: 5rem;
     color:  #B2A5FF ;
     margin-top: 25px;
     margin-bottom: 70px;
-    min-height: 60px;
 }
 @keyframes typing {
     from {width: 0;}
