@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/jpg" href="/gamelogo.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>GAME</title>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
 
-  <!-- CSS for background -->
+  
   <style>
     #vanta-bg {
       position: fixed;
@@ -24,14 +25,14 @@
     }
   </style>
 
-  <!-- External CSS -->
+  
   <link rel="stylesheet" href="Style.CSS">
 </head>
 <body>
-  <!-- Background Animation Container -->
+  
   <div id="vanta-bg"></div>
 
-  <!-- Game Content -->
+  
   <div class="msg-container hide">
     <p id="msg">Winner</p>
     <button id="new-btn">New Game</button>
@@ -57,10 +58,10 @@
     <button id="reset-btn"><i>Reset Game</i></button>
   </main>
 
-  <!-- External JS -->
+  
   <script src="app.js"></script>
 
-  <!-- Vanta Background Script -->
+ 
   <script>
     VANTA.BIRDS({
       el: "#vanta-bg",
@@ -108,3 +109,4 @@
   <br>Develop & Design<br>by Prabhakar Gupta</footer>
   </body>
   </html>
+
